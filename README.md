@@ -82,7 +82,7 @@ RxJava1 -> RxJava2
 * `Concat` -> emit the emissions from two or more Observables without interleaving them
 * `Replay` -> ensure that all observers see the same sequence of emitted items, even if they subscribe after the Observable has begun emitting items
 * `Merge` -> combine multiple Observables into one by merging their emissions
-* `SwitchMap` -> ransform the items emitted by an Observable into Observables, and mirror those items emitted by the most-recently transformed Observable
+* `SwitchMap` -> Transform the items emitted by an Observable into Observables, and mirror those items emitted by the most-recently transformed Observable
 
 
 # Highlights of the examples :
